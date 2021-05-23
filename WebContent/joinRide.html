@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Join Ride </title>
+    <link rel="shortcut icon" href="adminResources/images/favicon.ico">
+    <!--STYLESHEET-->
+    <!--=================================================-->
+    <!--Roboto Slab Font [ OPTIONAL ] -->
+    <link href="http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,100,700" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Roboto:500,400italic,100,700italic,300,700,500italic,400" rel="stylesheet">
+    <!--Bootstrap Stylesheet [ REQUIRED ]-->
+    <link href="adminResources/css/bootstrap.min.css" rel="stylesheet">
+    <!--Jasmine Stylesheet [ REQUIRED ]-->
+    <link href="adminResources/css/style.css" rel="stylesheet">
+
+    <!--SCRIPT-->
+    <!--=================================================-->
+    <!--Page Load Progress Bar [ OPTIONAL ]-->
+    <link href="adminResources/css/pace.min.css" rel="stylesheet">
+    <script src="adminResources/js/pace.min.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body style="background-color:#cccccc;">
+
+<nav class="navbar navbar-inverse navbar-fixed-top navbar-dark bg-dark navbar-expand-lg">
+  <div class="container-fluid">
+    <ul class="nav navbar-nav" style="font-size:18px;font-family:helvetica;color:white;">
+      <li class="active"><a href="customerPage.html">Customer</a></li>
+      <li><a href="customerPage.html">Book</a></li>
+      <li><a href="joinRide.html">Join Ride</a></li>
+      <li><a href="addPayment.html">Add Payment</a></li>
+      <li><a href="home.html">Logout</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+<div class="container">
+      <div class="justify-content-center">
+          <div class="col-auto">
+                      <h3 style="text-align:center; margin-top:15%;margin-bottom:35px;text-decoration:underline;">Join Ride</h3>
+                        <div class="table-responsive">
+                          <table class="table table-hover mx-auto w-auto" style="font-size:16px;margin:auto; width:50% !important;">
+                            <thead class="bg-primary white-text">
+                              <tr>
+                                <th scope="col">Select</th>
+                                <th scope="col">Origin</th>
+                                <th scope="col">Destination</th>
+                                <th scope="col">Charge</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row">
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="radio" id="exampleRadios1" value="option1">
+                                  </div>
+                                </th>
+                                <td>UTD</td>
+                                <td>Walmart</td>
+                                <td>$5</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="radio" id="exampleRadios2" value="option2">
+                                  </div>
+                                </th>
+                                <td>UTD</td>
+                                <td>Sprouts</td>
+                                <td>$5</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="radio" id="exampleRadios3" value="option3">
+                                  </div>
+                                </th>
+                                <td>UTD</td>
+                                <td>Tom Thumb</td>
+                                <td>$5</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        <br><br>
+                        <div class="text-center">
+                          <button id="join" class="btn btn-info" type="button" style="font-size:18px;">Join Ride</button>
+                        </div>
+              </div>
+            </div>
+        </div>
+</body>
+</html>

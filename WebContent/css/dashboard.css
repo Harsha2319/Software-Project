@@ -1,0 +1,76 @@
+body {
+  font-size: .875rem;
+  background-color: lightgrey;
+}
+
+html,body{
+  margin: 0;
+  padding:0;
+  overflow-x: hidden;
+}
+
+
+.light-table-filter {
+ background-position: 10px 10px; /* Position the search icon */
+ background-repeat: no-repeat; /* Do not repeat the icon image */
+ width: 10%; /* Full-width */
+ font-size: 14px; /* Increase font-size */
+ padding: 5px; /* Add some padding */
+ border: 1px solid #ddd; /* Add a grey border */
+ margin-bottom: 12px;
+ margin-top: 12px;
+ margin-left: 640px;/* Add some space below the input */
+}
+
+[role="main"] {
+  padding-top: 133px; /* Space for fixed navbar */
+}
+
+@media (min-width: 768px) {
+  [role="main"] {
+    padding-top: 48px; /* Space for fixed navbar */
+  }
+}
+
+.button {
+  padding: 5px;
+  border: 1px solid;
+  color: black;
+  font-size: 14px;
+  border-radius: 3px;
+  background-color: WhiteSmoke;
+}
+
+
+ .blog-header {
+   line-height: 1;
+   border-bottom: 1px solid #e5e5e5;
+   background-color: gray;
+ }
+
+ .blog-header-logo {
+   font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+   font-size: 25px;
+   margin-left: 650px;
+   display: inline-block;
+   color: black;
+ }
+
+ .blog-header-logo:hover {
+   text-decoration: none;
+   color: black;
+ }
+
+.table-hover tbody tr:hover td {
+  background-color: gray;
+}
+
+.table {
+  margin-top: 20px;
+  width: 700px;
+  margin-left: 370px;
+}
+
+thead {
+  background-color: gray;
+}
