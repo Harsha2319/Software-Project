@@ -2,6 +2,6 @@
 
 ## Authors
 * Akhil Kollipara
-* Raghuram Mandapalli
+* Harsha Vardhini Vasu 
 * Oussy Sylla
-* Harsha Vardhini Vasu
+* Raghuram Mandapalli
